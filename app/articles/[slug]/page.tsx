@@ -38,7 +38,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
           <p className="text-lg text-[#657b83]">{metadata.description}</p>
         </header>
 
-        <div className="prose prose-slate max-w-none">
+        <div className="prose prose-slate max-w-none prose-headings:font-bold prose-headings:text-[#073642] prose-h1:text-4xl prose-h2:text-3xl prose-h3:text-2xl prose-h4:text-xl prose-p:text-[#657b83] prose-a:text-[#268bd2] prose-a:no-underline hover:prose-a:underline prose-code:text-[#dc322f] prose-code:bg-[#eee8d5] prose-code:px-1 prose-code:rounded">
           <Markdown>{content}</Markdown>
         </div>
       </article>

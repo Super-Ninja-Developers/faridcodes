@@ -12,6 +12,13 @@ body {
   }
 }
 
+h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin: 10px 0;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

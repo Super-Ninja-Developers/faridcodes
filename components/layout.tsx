@@ -22,7 +22,7 @@ export default function Layout({ children }: LayoutProps) {
                 Projects
               </Link>
               <a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/faridmurzone" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-[#268bd2] transition-colors"
@@ -38,7 +38,7 @@ export default function Layout({ children }: LayoutProps) {
       </main>
       <footer className="border-t-4 border-[#073642] bg-[#eee8d5] mt-8">
         <div className="container mx-auto px-4 py-6 text-center">
-          <p>© {new Date().getFullYear()} Farid Codes. Built with Next.js</p>
+          <p>{new Date().getFullYear()} - Farid Codes </p>
         </div>
       </footer>
     </div>

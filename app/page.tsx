@@ -10,7 +10,6 @@ export default function Home() {
     <Layout>
       <section className="space-y-8">
         <div className="space-y-4">
-          <h1 className="text-4xl font-bold">Welcome</h1>
           <p className="text-lg text-[#657b83]">
             Exploring ideas, sharing projects, and documenting my journey.
           </p>

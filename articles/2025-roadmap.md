@@ -38,7 +38,7 @@ Finally, because life isn't all about code and startups, I'm learning to play Pi
 ## Why Share These Goals?
 Some might say these goals are too ambitious. But as we say in Argentina, "El que no arriesga, no gana" (Who doesn't risk, doesn't win). I'm sharing these goals publicly not just for accountability, but to inspire others in the tech community to dream bigger.
 
-What's more, I'm committed to making most of my 2025 projects, including this blog, open source. Why? Because true innovation shouldn't be locked behind closed doors. My ambition isn't to get rich from these projects—it's to inspire others to start their own entrepreneurial journey, to demonstrate how technology can dramatically improve our world, and to show that we can tackle projects without selfishly compartmentalizing knowledge.
+What's more, I'm committed to making most of my 2025 projects, [including this blog](https://github.com/Super-Ninja-Developers/faridcodes), open source. Why? Because true innovation shouldn't be locked behind closed doors. My ambition isn't to get rich from these projects—it's to inspire others to start their own entrepreneurial journey, to demonstrate how technology can dramatically improve our world, and to show that we can tackle projects without selfishly compartmentalizing knowledge.
 
 Think about it: how many great ideas never saw the light of day because someone felt they didn't have access to the right knowledge or resources? How many potential solutions to real problems are sitting in private repositories, never to be improved upon by the community? That's not the kind of tech world I want to build.
 
