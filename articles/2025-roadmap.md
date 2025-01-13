@@ -1,6 +1,7 @@
 ---
 title: "2025: A Tech Entrepreneur's Ambitious Roadmap from Argentina"
 description: "Personal and professional goals for 2025, combining technology, family, and Argentine culture"
+author: "Farid"
 category: "Personal Growth"
 date: "2025-01-10"
 ---
