@@ -12,7 +12,7 @@ export default function Layout({ children }: LayoutProps) {
         <div className="container mx-auto px-4 py-6">
           <nav className="flex items-center justify-between">
             <Link href="/" className="text-2xl font-bold hover:text-[#268bd2] transition-colors">
-              Farid Codes
+              Farid
             </Link>
             <div className="flex items-center gap-6">
               <Link href="/articles" className="hover:text-[#268bd2] transition-colors">

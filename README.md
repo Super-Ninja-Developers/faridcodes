@@ -1,4 +1,4 @@
-# Farid Codes - Personal Blog
+# Farid Personal Blog
 
 A retro-styled multilingual blog built with Next.js, where I share my thoughts, projects, and ideas about software development.
 
