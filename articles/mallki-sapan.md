@@ -63,5 +63,5 @@ After all plants grow better when many hands care for them 🌱
 
 Would you like to access the source code? Contribute to the project? Or simply share your farming experience? Don't hesitate to reach out through:
 - GitHub: https://github.com/Faridmurzone/mallki-sapan
-- Twitter: https://x.com/faridcodes
+- Twitter: https://x.com/faridmurzone
 - Email: [ f a r i d m u r z o n e [AT] g m a i l . c o m ]
