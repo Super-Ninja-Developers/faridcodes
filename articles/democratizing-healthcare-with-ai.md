@@ -1,6 +1,6 @@
 ---
 title: "Democratizing Healthcare: How We Built Latin America's First AI Medical Diagnosis System in Spanish"
-date: "2020-03-25"
+date: "2025-02-19"
 author: "Farid Murzone"
 tags: ["healthcare", "AI", "deep learning", "Spanish", "open innovation", "ÜMA Health"]
 ---
@@ -22,7 +22,7 @@ Our approach was comprehensive and novel. We analyzed 759,000 anonymized general
 3. A Text Generator: Creating coherent medical narratives
 4. A Diagnosis Classifier: Determining the most likely diagnosis
 
-Using a Hierarchical Attention Network model (based on https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf), we achieved remarkable results:
+Using a Hierarchical Attention Network model  (based on https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf), we achieved remarkable results:
 - 82% accuracy for top diagnosis
 - 93% accuracy when considering the top three diagnoses
 
@@ -41,3 +41,5 @@ This research, presented at Machine Learning for Healthcare 2020, marks just the
 As we say in Argentina, "el camino se hace al andar" (the path is made by walking). We're proud to be walking this path, combining technological innovation with social impact, and we invite others to join us in this journey.
 
 Remember: technology is most beautiful when it serves humanity. That's what we strive for at ÜMA Health, one line of code at a time.
+
+Abstract here: https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5f2440d51877ee516da5f770/1596211414528/19CameraReadySubmissionClinical_Abstract_MLH_2020.pdf
