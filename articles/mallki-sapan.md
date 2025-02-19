@@ -4,6 +4,7 @@ date: "2025-01-10"
 author: "[Your name]"
 tags: ["agriculture", "technology", "open-source", "automation", "hydroponics"]
 description: "A personal journey from traditional family gardening to an open source automated agriculture project"
+category: "Entrepreneurship"
 ---
 
 Life has a curious way of coming full circle. On my desk rest two objects that symbolize this journey: my laptop filled with code and a well-worn copy of John Seymour's "The Complete Book of Self-Sufficiency," a book that has accompanied me since childhood and was inherited from my grandfather.

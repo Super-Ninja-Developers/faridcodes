@@ -3,6 +3,7 @@ title: "Democratizing Healthcare: How We Built Latin America's First AI Medical 
 date: "2025-02-19"
 author: "Farid Murzone"
 tags: ["healthcare", "AI", "deep learning", "Spanish", "open innovation", "ÜMA Health"]
+category: "Academy"
 ---
 
 While sipping mate in our Buenos Aires office back in 2020, we embarked on an ambitious journey: creating Latin America's first AI-powered medical diagnosis system in Spanish. Today, I want to share this story of innovation, social impact, and how we're working to make healthcare more accessible for the 483 million Spanish speakers worldwide.
