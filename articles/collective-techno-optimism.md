@@ -1,6 +1,6 @@
 ---
 title: "Manifesto for Collective Techno-optimism"
-date: "2025-02-16"
+date: "2024-02-16"
 author: "Farid Murzone"
 tags: ["technology", "social-impact", "innovation", "collective-development", "manifesto", "future", "automation", "AI", "social-change"]
 description: "A manifesto proposing a new direction for technological development centered on collective wellbeing and social impact"
