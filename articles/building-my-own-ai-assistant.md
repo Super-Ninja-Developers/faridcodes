@@ -52,6 +52,9 @@ This project might take a couple of years to fully realize, but that's okay. The
 
 Rather than waiting for the perfect AGI solution, AFI represents a practical approach to artificial intelligence - one that grows and evolves alongside its user, learning from real-world applications and challenges.
 
+# Setting Boundaries: What AFI Won't Do
+It's important to note that not everything in my life will be delegated to AFI. Playing the bandoneón, spending time with my son, and tending to my garden will remain firmly outside its scope - at least for now... These aspects of life represent the irreplaceable human experiences that technology should enhance, not replace.
+
 ## Technical Implementation Notes
 
 The system will be composed of various tools and agents, each designed to emulate specific aspects of my daily work. The key is not to create a single monolithic AI, but rather a coordinated system of specialized components that can work together seamlessly.
