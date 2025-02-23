@@ -4,7 +4,7 @@ import Layout from "@/components/layout"
 
 export default function Home() {
   const articles = getArticleMetadata()
-  const recentArticles = articles.slice(0, 3)
+  const recentArticles = articles.slice(0, 12)
 
   return (
     <Layout>

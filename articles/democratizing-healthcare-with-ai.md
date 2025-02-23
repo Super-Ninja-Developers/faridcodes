@@ -1,6 +1,6 @@
 ---
 title: "Democratizing Healthcare: How We Built Latin America's First AI Medical Diagnosis System in Spanish"
-date: "2025-02-19"
+date: "2020-03-25"
 author: "Farid Murzone"
 tags: ["healthcare", "AI", "deep learning", "Spanish", "open innovation", "ÜMA Health"]
 category: "Academy"
