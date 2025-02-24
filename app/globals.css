@@ -17,10 +17,7 @@ h2 {
   font-weight: 700;
   line-height: 1.5rem;
   margin: 10px 0;
-}
-
-article a {
-  text-decoration: underline wavy;
+  text-decoration: none !important;
 }
 
 @layer base {
