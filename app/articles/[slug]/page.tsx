@@ -1,6 +1,9 @@
 import { getArticleContent, getArticleMetadata } from "@/lib/articles"
 import Layout from "@/components/layout"
 import Markdown from "react-markdown"
+import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
+import rehypeSanitize, { defaultSchema } from "rehype-sanitize";
 
 interface ArticlePageProps {
   params: {
@@ -15,8 +18,30 @@ export async function generateStaticParams() {
   }))
 }
 
+const schema = {
+  ...defaultSchema,
+  tagNames: [...(defaultSchema.tagNames || []), "hr"],
+  attributes: {
+    ...defaultSchema.attributes,
+    hr: [...(defaultSchema.attributes?.hr || []), "className", "style"],
+  },
+};
+
+function expandBlankRunsToHr(md: string) {
+  // Reemplaza 3+ líneas en blanco por un <hr> con margen proporcional.
+  // Ej.: \n\n\n -> <hr style="margin:1rem 0"> ; \n\n\n\n\n -> 3rem, etc.
+  return md.replace(/\n{3,}/g, (m) => {
+    const extra = m.length - 2; // cuántas "líneas extra" querés ver
+    const rem = Math.max(1, extra); // mínimo 1rem
+    return `\n\n<hr class="md-gap" style="margin:${rem}rem 0;border:0" />\n\n`;
+  });
+}
+
+
+
 export default function ArticlePage({ params }: ArticlePageProps) {
   const { content, metadata } = getArticleContent(params.slug)
+  const prepared = expandBlankRunsToHr(content);
 
   return (
     <Layout>
@@ -39,7 +64,11 @@ export default function ArticlePage({ params }: ArticlePageProps) {
         </header>
 
         <div className="prose prose-slate max-w-none prose-headings:font-bold prose-headings:text-[#073642] prose-h1:text-4xl prose-h2:text-3xl prose-h3:text-2xl prose-h4:text-xl prose-p:text-[#657b83] prose-a:text-[#268bd2] prose-a:no-underline hover:prose-a:underline prose-code:text-[#dc322f] prose-code:bg-[#eee8d5] prose-code:px-1 prose-code:rounded">
-          <Markdown>{content}</Markdown>
+          <Markdown 
+            remarkPlugins={[remarkGfm]}
+            rehypePlugins={[rehypeRaw, [rehypeSanitize, schema]]}>
+              {prepared}
+            </Markdown>
         </div>
       </article>
     </Layout>
